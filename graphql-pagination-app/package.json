@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@apollo/client": "^3.9.4",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "devtools": "^8.31.1",
     "graphql": "^16.8.1",
@@ -42,6 +39,11 @@
     ]
   },
   "devDependencies": {
+    "@apollo/client": "^3.9.4",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.1",
+    "jest": "^29.7.0",
+    "react-test-renderer": "^18.2.0",
     "tailwindcss": "^3.4.1"
   }
 }
